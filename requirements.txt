@@ -1,0 +1,17 @@
+# CENG 467 Term Project – LLM-as-a-Judge(llama-3.3-70b-versatile)
+# Install with: pip install -r requirements.txt
+
+groq
+python-dotenv
+datasets>=2.19.0
+transformers==4.44.2    # 5.x dropped text2text-generation
+torch>=2.2.0
+rouge-score>=0.1.2
+bert-score>=0.3.13
+scipy>=1.13.0
+numpy>=1.26.0
+pandas>=2.2.0
+tqdm>=4.66.0
+openai>=1.30.0           # only needed when USE_OPENAI=true
+accelerate>=0.30.0       # for larger local models
+sentencepiece>=0.1.99    # tokenizer for flan-t5
