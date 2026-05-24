@@ -90,7 +90,7 @@ Higher is better; values > 0.4 are considered meaningful agreement in NLP evalua
 
 ## Reproducibility
 
-Set `random_state=42` is used for sampling. Full results require ~100 API calls (OpenAI)
+Set `random_state=42` is used for sampling. Full results require ~100 API calls (Groq)
 or ~30 min on CPU (local model). Prompts are deterministic (temperature=0).
 
 ---
